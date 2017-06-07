@@ -237,3 +237,123 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  .sidebar {
+    width: 100%;
+    max-width: none;
+    float: none;
+    margin-top: 20px;
+  }
+
+  .main-section {
+    width: 100%;
+    max-width: none;
+    float: none;
+  }
+
+  .auth-image {
+    width: 50%;
+    max-width: none;
+  }
+
+  .work {
+    width: 100%
+    max-width: none;
+    float: none;
+  }
+
+  #contact-form {
+    width: 100%;
+    max-width: none;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    max-width: none;
+    float: none;
+    margin-top: 20px;
+  }
+
+  nav a { 
+    width: 100%;
+    padding: 0px 30px 5px 0px;
+    display: inline;
+   }
+
+  .main-section {
+    width: 100%;
+    max-width: none;
+    float: none;
+  }
+
+  .auth-image {
+    width: 100%;
+    max-width: none;
+  }
+  .work {
+    width: 100%
+    max-width: none;
+    float: none;
+  }
+
+  #contact-form {
+    width: 100%;
+    max-width: none;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .sidebar {
+    width: 100%;
+    max-width: none;
+    float: none;
+    margin-top: 20px;
+  }
+  #logo {
+    width: 100%;
+    padding: 10px 0px 0px 10px;
+  }
+
+  nav a {
+    width: 100%; 
+    display: inline;
+    max-width: none;
+    padding: 0px 15px 5px 0px;
+  }
+
+  .auth-image {
+    width: 100%;
+    max-width: none;
+  }
+
+  .main-section {
+    width: 100%;
+    max-width: none;
+    float: none;
+    margin-top: 60px;
+  }
+
+  .work {
+    width: 100%
+    max-width: none;
+    float: none;
+  }
+
+  #contact-form {
+    width: 100%;
+    max-width: none;
+    float: none;
+  }
+
+  footer {
+    margin-top: 40px;
+  }
+}
+
+
+
